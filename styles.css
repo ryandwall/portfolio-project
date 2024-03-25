@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
-  .img-set-1, .img-set-2 {
-     width: 50%;
-     height: 50%;
+  figure {
+     max-width: 100%;
+     height: auto;
    }
  }
  
