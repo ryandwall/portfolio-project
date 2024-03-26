@@ -49,17 +49,17 @@
  
  
  #navbar {
-   background-color: var(--dark-blue);
-   position: fixed;
-   height: 60px;
-   width: 100%;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   border-bottom: 4px solid var(--dark-red);
-   z-index: 2;
-   animation: bordermove 7s infinite;
- }
+  background-color: var(--dark-blue);
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 4px solid var(--dark-red);
+  z-index: 2;
+  animation: bordermove 7s infinite;
+}
  
  @keyframes bordermove {
    50% {border-bottom-color: black}
